@@ -3021,6 +3021,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable indeterminate_static
+drawable logo_android
+drawable logo_ios
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3212,8 +3214,6 @@ id chain
 id chain2
 id chains
 id checkbox
-id checkbox_Android
-id checkbox_IOS
 id checkbox_hardware
 id checkbox_otras
 id checkbox_programacion
@@ -3328,6 +3328,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageview_android
+id imageview_ios
 id immediateStop
 id included
 id indeterminate
@@ -3349,6 +3351,8 @@ id linear
 id listMode
 id list_item
 id login_button
+id logo_android
+id logo_ios
 id m3_side_sheet
 id main
 id marquee
@@ -3974,6 +3978,11 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string register_button
+string register_email_hint
+string register_password_confirm_hint
+string register_password_hint
+string register_username_hint
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

@@ -24,13 +24,20 @@
             android:layout_gravity="left">
 
             <CheckBox
-                android:id="@+id/checkbox_IOS"
+                android:id="@+id/logo_ios"
                 android:text="@string/welcome_IOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
             </CheckBox>
+            <ImageView
+                android:id="@+id/imageview_ios"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/logo_ios"
+                android:visibility="gone" />
 
         </LinearLayout>
 
@@ -40,15 +47,22 @@
             android:layout_gravity="left">
 
             <CheckBox
-                android:id="@+id/checkbox_Android"
-                android:text="@string/welcome_Android"
+                android:id="@+id/logo_android"                 android:text="@string/welcome_Android"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
             </CheckBox>
+            <ImageView
+                android:id="@+id/imageview_android"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/logo_android"
+                android:visibility="gone" />
 
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="wrap_content"

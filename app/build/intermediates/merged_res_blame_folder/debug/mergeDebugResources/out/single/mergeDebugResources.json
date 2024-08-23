@@ -20,6 +20,10 @@
         "source": "com.example.kotlin_login.app-main-33:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.kotlin_login.app-debug-31:/drawable_logo_ios.png.flat",
+        "source": "com.example.kotlin_login.app-main-33:/drawable/logo_ios.png"
+    },
+    {
         "merged": "com.example.kotlin_login.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.example.kotlin_login.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "com.example.kotlin_login.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.kotlin_login.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kotlin_login.app-debug-31:/drawable_logo_android.png.flat",
+        "source": "com.example.kotlin_login.app-main-33:/drawable/logo_android.png"
     },
     {
         "merged": "com.example.kotlin_login.app-debug-31:/mipmap-anydpi_ic_launcher.xml.flat",
