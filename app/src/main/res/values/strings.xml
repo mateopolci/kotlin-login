@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">kotlin-login</string>
+    //Main
     <string name="main_title">Trabajo Práctico 1</string>
+    //Welcome
     <string name="welcome_title">Bienvenido a la aplicación</string>
     <string name="welcome_Android">Android</string>
     <string name="welcome_IOS">IOS</string>
@@ -9,6 +11,11 @@
     <string name="welcome_Seguridad">Seguridad</string>
     <string name="welcome_Hardware">Hardware</string>
     <string name="welcome_Otras">Otras</string>
-
+    //Register
+    <string name="register_username_hint">Username</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_password_confirm_hint">Confirm Password</string>
+    <string name="register_button">Register</string>
 
 </resources>

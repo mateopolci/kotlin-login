@@ -22,34 +22,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Username"
+                android:autofillHints="username"
+                android:hint="@string/register_username_hint"
                 android:inputType="text"
                 android:padding="10dp" />
 
             <EditText
+                android:autofillHints="emailAddress"
                 android:id="@+id/EditText_email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Email"
-                android:inputType="text"
+                android:hint="@string/register_email_hint"
+                android:inputType="textEmailAddress"
                 android:padding="10dp" />
 
             <EditText
+                android:autofillHints=""
                 android:id="@+id/EditText_password_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:hint="Password"
+                android:hint="@string/register_password_hint"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
             <EditText
+                android:autofillHints=""
                 android:id="@+id/EditText_RepetPassword_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:hint="Confirm Password"
+                android:hint="@string/register_password_confirm_hint"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
@@ -57,7 +61,7 @@
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Register"
+                android:text="@string/register_button"
                 android:layout_marginTop="16dp" />
         </LinearLayout>
 
