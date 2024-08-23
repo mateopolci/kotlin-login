@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id login_button
+id main
+id password_input
+id register_button
+id username_input
+layout activity_main
+layout activity_register
+layout activity_welcome
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string main_title
+style Base.Theme.Kotlinlogin
+style Theme.Kotlinlogin
+xml backup_rules
+xml data_extraction_rules
