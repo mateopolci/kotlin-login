@@ -4,6 +4,10 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id EditText_RepetPassword_input
+id EditText_email_input
+id EditText_name_input
+id EditText_password_input
 id login_button
 id main
 id password_input
@@ -16,6 +20,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string main_title
+string welcome_title
 style Base.Theme.Kotlinlogin
 style Theme.Kotlinlogin
 xml backup_rules

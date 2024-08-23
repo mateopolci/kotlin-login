@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">kotlin-login</string>
     <string name="main_title">Trabajo Práctico 1</string>
+    <string name="welcome_title">Bienvenido a la aplicación</string>
     <style name="Base.Theme.Kotlinlogin" parent="Theme.Material3.DayNight.NoActionBar">
         
         

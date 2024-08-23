@@ -3100,6 +3100,10 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id EditText_RepetPassword_input
+id EditText_email_input
+id EditText_name_input
+id EditText_password_input
 id FUNCTION
 id META
 id NO_DEBUG
@@ -3968,6 +3972,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string welcome_title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
