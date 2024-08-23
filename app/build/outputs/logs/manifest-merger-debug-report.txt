@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\mateo\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mateo\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\mateo\.gradle\caches\transforms-4\b37a71039f7c6b4a0944957b20860b7e\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\mateo\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-27:19
-INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-31:19
+INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\mateo\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\mateo\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\mateo\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -118,6 +118,12 @@ ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManife
 		ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
 		ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:25:13-44
+activity#com.example.kotlin_login.RegisterActivity
+ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:28:9-30:39
+	android:exported
+		ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:29:13-45
 uses-sdk
 INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mateo\StudioProjects\kotlin-login\app\src\main\AndroidManifest.xml

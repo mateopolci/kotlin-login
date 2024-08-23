@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
 
         //
+        //Login transition
         //XML elements
         val editTextUsername = findViewById<EditText>(R.id.username_input)
         val editTextPassword = findViewById<EditText>(R.id.password_input)
@@ -51,6 +52,17 @@ class MainActivity : AppCompatActivity() {
         }
         //
 
+        //
+        //Register transition
+        //XML elements
+        val registerButton = findViewById<Button>(R.id.register_button)
+
+        //Register button listener
+        registerButton.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+        //
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

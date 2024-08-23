@@ -3469,6 +3469,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register
 id register_button
 id report_drawn
 id reverseSawtooth

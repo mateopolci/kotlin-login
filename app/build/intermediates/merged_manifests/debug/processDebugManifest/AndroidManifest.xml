@@ -40,6 +40,10 @@
         <activity
             android:name="com.example.kotlin_login.WelcomeActivity"
             android:exported="true" />
+        <!-- RegisterActivity -->
+        <activity
+            android:name="com.example.kotlin_login.RegisterActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

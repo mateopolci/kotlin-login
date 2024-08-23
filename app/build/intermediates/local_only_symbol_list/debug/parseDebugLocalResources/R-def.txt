@@ -18,6 +18,7 @@ id checkbox_seguridad
 id login_button
 id main
 id password_input
+id register
 id register_button
 id username_input
 id welcome

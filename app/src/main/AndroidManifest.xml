@@ -24,6 +24,10 @@
         <activity
             android:name=".WelcomeActivity"
             android:exported="true" />
+        <!--RegisterActivity-->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
