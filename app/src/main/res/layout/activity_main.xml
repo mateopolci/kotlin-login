@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:layout_gravity="center"
-                android:text="Trabajo Práctico 1"
+                android:text="@string/main_title"
                 android:textSize="38sp" />
 
             <EditText
