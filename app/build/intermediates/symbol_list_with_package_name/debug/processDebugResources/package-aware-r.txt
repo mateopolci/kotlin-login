@@ -3212,6 +3212,13 @@ id chain
 id chain2
 id chains
 id checkbox
+id checkbox_Android
+id checkbox_IOS
+id checkbox_hardware
+id checkbox_otras
+id checkbox_programacion
+id checkbox_redes
+id checkbox_seguridad
 id checked
 id chronometer
 id circle_center
@@ -3596,6 +3603,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcome
 id west
 id withText
 id with_icon
@@ -3972,6 +3980,13 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string welcome_Android
+string welcome_Hardware
+string welcome_IOS
+string welcome_Otras
+string welcome_Programacion
+string welcome_Redes
+string welcome_Seguridad
 string welcome_title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

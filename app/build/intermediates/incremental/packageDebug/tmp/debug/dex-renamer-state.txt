@@ -1,7 +1,7 @@
-#Fri Aug 23 02:15:03 ART 2024
-base.0=C\:\\Users\\mateo\\AndroidStudioProjects\\kotlinlogin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\mateo\\AndroidStudioProjects\\kotlinlogin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\mateo\\AndroidStudioProjects\\kotlinlogin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+#Fri Aug 23 18:26:11 ART 2024
+base.0=C\:\\Users\\mateo\\StudioProjects\\kotlin-login\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\mateo\\StudioProjects\\kotlin-login\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\mateo\\StudioProjects\\kotlin-login\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=7/classes.dex
