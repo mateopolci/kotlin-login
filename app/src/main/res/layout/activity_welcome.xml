@@ -7,14 +7,73 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:padding="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:text="@string/welcome_title"
-        android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/welcome_title"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferencias:"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"/>
+
+        <!-- Contenedor para los checkboxes -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_programacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programación"
+                android:layout_marginBottom="8dp"
+                style="@style/CustomCheckBox"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_redes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Redes"
+                android:layout_marginBottom="8dp"
+                style="@style/CustomCheckBox"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_seguridad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seguridad"
+                android:layout_marginBottom="8dp"
+                style="@style/CustomCheckBox"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_hardware"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hardware"
+                android:layout_marginBottom="8dp"
+                style="@style/CustomCheckBox"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_otra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otra"
+                android:layout_marginBottom="8dp"
+                style="@style/CustomCheckBox"/>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
