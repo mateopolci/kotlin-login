@@ -16,7 +16,20 @@ class WelcomeActivity : AppCompatActivity() {
         val imageViewAndroid = findViewById<ImageView>(R.id.imageview_android)
 
         checkboxIOS.setOnCheckedChangeListener { _, isChecked ->
-            imageViewIOS.visibility = if (isChecked) ImageView.VISIBLE else ImageView.GONE
+            if (isChecked) {
+                checkboxAndroid.isChecked = false
+                imageViewIOS.visibility = ImageView.GONE }
+            else {
+                imageViewIOS.visibility = ImageView.GONE
+            }
+        }
+        checkboxAndroid.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                checkboxIOS.isChecked = false
+                imageViewAndroid.visibility = ImageView.GONE }
+            else {
+                imageViewAndroid.visibility = ImageView.GONE
+            }
         }
 
         checkboxAndroid.setOnCheckedChangeListener { _, isChecked ->

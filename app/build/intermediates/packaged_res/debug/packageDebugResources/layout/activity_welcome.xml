@@ -23,14 +23,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left">
 
-            <CheckBox
+            <RadioButton
                 android:id="@+id/logo_ios"
                 android:text="@string/welcome_IOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
-            </CheckBox>
+            </RadioButton>
             <ImageView
                 android:id="@+id/imageview_ios"
                 android:layout_width="50dp"
@@ -46,13 +46,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left">
 
-            <CheckBox
+            <RadioButton
                 android:id="@+id/logo_android"                 android:text="@string/welcome_Android"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
-            </CheckBox>
+            </RadioButton>
             <ImageView
                 android:id="@+id/imageview_android"
                 android:layout_width="50dp"
