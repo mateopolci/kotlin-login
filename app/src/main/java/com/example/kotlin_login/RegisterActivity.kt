@@ -59,7 +59,7 @@ class RegisterActivity : AppCompatActivity() {
             startActivity(intent)
 
             // Give feedback to user that registration was successful
-            Toast.makeText(this, "Succesfull register", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Successful register", Toast.LENGTH_SHORT).show()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.register)) { v, insets ->
