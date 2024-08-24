@@ -10,7 +10,7 @@
     <string name="welcome_Redes">Redes</string>
     <string name="welcome_Seguridad">Seguridad</string>
     <string name="welcome_Hardware">Hardware</string>
-    <string name="welcome_Otras">Otras</string>
+    <string name="welcome_Otra">Otra</string>
     //Register
     <string name="register_username_hint">Username</string>
     <string name="register_email_hint">Email</string>
