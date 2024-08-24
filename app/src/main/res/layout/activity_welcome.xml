@@ -104,16 +104,16 @@
                 android:layout_marginBottom="8dp" />
 
             <CheckBox
-                android:id="@+id/checkbox_otras"
+                android:id="@+id/checkbox_otra"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/welcome_Otras"
+                android:text="@string/welcome_Otra"
                 android:textSize="18sp"
                 android:layout_marginBottom="8dp" />
 
             <EditText
                 android:id="@+id/edittext_other"
-                android:layout_width="match_parent"
+                android:layout_width="60sp"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_enter_preference"
                 android:visibility="gone" />

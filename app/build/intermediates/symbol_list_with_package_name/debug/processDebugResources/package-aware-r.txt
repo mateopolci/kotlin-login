@@ -3215,7 +3215,7 @@ id chain2
 id chains
 id checkbox
 id checkbox_hardware
-id checkbox_otras
+id checkbox_otra
 id checkbox_programacion
 id checkbox_redes
 id checkbox_seguridad
@@ -3995,7 +3995,7 @@ string status_bar_notification_info_overflow
 string welcome_Android
 string welcome_Hardware
 string welcome_IOS
-string welcome_Otras
+string welcome_Otra
 string welcome_Programacion
 string welcome_Redes
 string welcome_Seguridad

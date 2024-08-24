@@ -3214,7 +3214,7 @@ int id chain2 0x7f080071
 int id chains 0x7f080072
 int id checkbox 0x7f080073
 int id checkbox_hardware 0x7f080074
-int id checkbox_otras 0x7f080075
+int id checkbox_otra 0x7f080075
 int id checkbox_programacion 0x7f080076
 int id checkbox_redes 0x7f080077
 int id checkbox_seguridad 0x7f080078
@@ -3994,7 +3994,7 @@ int string status_bar_notification_info_overflow 0x7f0f00ad
 int string welcome_Android 0x7f0f00ae
 int string welcome_Hardware 0x7f0f00af
 int string welcome_IOS 0x7f0f00b0
-int string welcome_Otras 0x7f0f00b1
+int string welcome_Otra 0x7f0f00b1
 int string welcome_Programacion 0x7f0f00b2
 int string welcome_Redes 0x7f0f00b3
 int string welcome_Seguridad 0x7f0f00b4
