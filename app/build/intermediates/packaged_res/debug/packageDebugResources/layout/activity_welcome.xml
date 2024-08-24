@@ -110,6 +110,13 @@
                 android:textSize="18sp"
                 android:layout_marginBottom="8dp" />
 
+            <EditText
+                android:id="@+id/edittext_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_preference"
+                android:visibility="gone" />
+
         </LinearLayout>
 
     </LinearLayout>

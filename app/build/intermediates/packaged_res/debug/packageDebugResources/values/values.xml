@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">kotlin-login</string>
+    <string name="hint_enter_preference">Ingrese su preferencia</string>
     <string name="main_title">Trabajo Práctico 1</string>
     <string name="register_button">Register</string>
     <string name="register_email_hint">Email</string>

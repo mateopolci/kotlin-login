@@ -15,6 +15,7 @@ id checkbox_otras
 id checkbox_programacion
 id checkbox_redes
 id checkbox_seguridad
+id edittext_other
 id imageview_android
 id imageview_ios
 id login_button
@@ -32,6 +33,7 @@ layout activity_welcome
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string hint_enter_preference
 string main_title
 string register_button
 string register_email_hint
