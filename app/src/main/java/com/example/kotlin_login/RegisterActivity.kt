@@ -31,7 +31,7 @@ class RegisterActivity : AppCompatActivity() {
 
             // Validate username, email, password and repeat password
             if (username.isEmpty()) {
-                editTextUsername.error = "Please enter a valid username"
+                editTextUsername.error = "Please enter a username"
                 editTextUsername.requestFocus()
                 return@setOnClickListener
             }

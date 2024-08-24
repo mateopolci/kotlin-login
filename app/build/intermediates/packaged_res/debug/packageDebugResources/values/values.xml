@@ -17,7 +17,7 @@
     <string name="welcome_Programacion">Programacion</string>
     <string name="welcome_Redes">Redes</string>
     <string name="welcome_Seguridad">Seguridad</string>
-    <string name="welcome_title">Bienvenido a la aplicación</string>
+    <string name="welcome_title">Bienvenido a la aplicación Juan Torres</string>
     <style name="Base.Theme.Kotlinlogin" parent="Theme.Material3.DayNight.NoActionBar">
         
         
