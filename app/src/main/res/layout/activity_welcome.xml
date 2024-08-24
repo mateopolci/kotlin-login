@@ -23,14 +23,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left">
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/logo_ios"
                 android:text="@string/welcome_IOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
-            </RadioButton>
+            </CheckBox>
             <ImageView
                 android:id="@+id/imageview_ios"
                 android:layout_width="50dp"
@@ -46,13 +46,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left">
 
-            <RadioButton
-                android:id="@+id/logo_android"                 android:text="@string/welcome_Android"
+            <CheckBox
+                android:id="@+id/logo_android"
+                android:text="@string/welcome_Android"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:textSize="18sp">
-            </RadioButton>
+            </CheckBox>
             <ImageView
                 android:id="@+id/imageview_android"
                 android:layout_width="50dp"
@@ -108,6 +109,13 @@
                 android:text="@string/welcome_Otras"
                 android:textSize="18sp"
                 android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/edittext_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_enter_preference"
+                android:visibility="gone" />
 
         </LinearLayout>
 

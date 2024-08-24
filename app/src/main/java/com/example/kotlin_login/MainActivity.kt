@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-
-        //
         //Login transition
         //XML elements
         val editTextUsername = findViewById<EditText>(R.id.username_input)

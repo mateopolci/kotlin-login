@@ -58,6 +58,7 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\orian\.gradle\caches\transform
 application
 ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-31:19
 INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-31:19
+INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\orian\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\orian\.gradle\caches\transforms-4\f940b623479780b9386fa91f263b8783\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\orian\.gradle\caches\transforms-4\3a72dd2ccb015f3ecdd5bdcda0745f24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -84,6 +85,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\or
 		ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
 		ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:8:9-54
+	android:testOnly
+		INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
 	android:roundIcon
 		ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
@@ -124,6 +127,14 @@ ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\Androi
 		ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml:29:13-45
+profileable
+INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml reason: profileable injection requested
+INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
+	android:enabled
+		INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
+	android:shell
+		INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
 uses-sdk
 INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\orian\AndroidStudioProjects\kotlin-login\app\src\main\AndroidManifest.xml
