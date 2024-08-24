@@ -85,14 +85,6 @@
 
             </LinearLayout>
 
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start">
-
-            </LinearLayout>
-
             <CheckBox
                 android:id="@+id/checkbox_programacion"
                 android:layout_width="wrap_content"
