@@ -2,6 +2,11 @@
     <string name="app_name">kotlin-login</string>
     //Main
     <string name="main_title">Trabajo Práctico 1</string>
+    <string name="activity_Register">Register</string>
+    <string name="activity_LogIn">LogIn</string>
+    <string name="activity_UserName">Username</string>
+    <string name="activity_Password">Password</string>
+
     //Welcome
     <string name="welcome_title">Bienvenido a la aplicación Juan Torres</string>
     <string name="welcome_Android">Android</string>
