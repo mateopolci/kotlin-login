@@ -3101,7 +3101,7 @@ int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
-int id EditText_RepetPassword_input 0x7f080004
+int id EditText_RepeatPassword_input 0x7f080004
 int id EditText_email_input 0x7f080005
 int id EditText_name_input 0x7f080006
 int id EditText_password_input 0x7f080007

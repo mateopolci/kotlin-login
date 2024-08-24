@@ -49,7 +49,7 @@
 
             <EditText
                 android:autofillHints=""
-                android:id="@+id/EditText_RepetPassword_input"
+                android:id="@+id/EditText_RepeatPassword_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
