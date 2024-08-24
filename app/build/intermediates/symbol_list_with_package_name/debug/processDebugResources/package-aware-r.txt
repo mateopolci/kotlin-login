@@ -3102,7 +3102,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id EditText_RepetPassword_input
+id EditText_RepeatPassword_input
 id EditText_email_input
 id EditText_name_input
 id EditText_password_input

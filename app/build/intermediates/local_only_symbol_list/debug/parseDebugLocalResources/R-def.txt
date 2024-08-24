@@ -6,7 +6,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo_android
 drawable logo_ios
-id EditText_RepetPassword_input
+id EditText_RepeatPassword_input
 id EditText_email_input
 id EditText_name_input
 id EditText_password_input
