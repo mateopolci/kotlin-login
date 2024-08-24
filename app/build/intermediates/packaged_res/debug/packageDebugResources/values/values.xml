@@ -3,6 +3,10 @@
     <color name="aqua">#2A787A</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="activity_LogIn">LogIn</string>
+    <string name="activity_Password">Password</string>
+    <string name="activity_Register">Register</string>
+    <string name="activity_UserName">Username</string>
     <string name="app_name">kotlin-login</string>
     <string name="hint_enter_preference">Ingrese su preferencia</string>
     <string name="main_title">Trabajo Práctico 1</string>

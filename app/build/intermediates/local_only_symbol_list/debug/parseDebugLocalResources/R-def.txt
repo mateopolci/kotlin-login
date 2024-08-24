@@ -33,6 +33,10 @@ layout activity_register
 layout activity_welcome
 mipmap ic_launcher
 mipmap ic_launcher_round
+string activity_LogIn
+string activity_Password
+string activity_Register
+string activity_UserName
 string app_name
 string hint_enter_preference
 string main_title

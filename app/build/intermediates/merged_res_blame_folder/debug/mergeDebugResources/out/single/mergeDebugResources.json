@@ -20,6 +20,10 @@
         "source": "C:\\Users\\mateo\\.gradle\\daemon\\8.7\\com.example.kotlin_login.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.kotlin_login.app-debug-31:/layout_activity_register.xml.flat",
+        "source": "com.example.kotlin_login.app-main-33:/layout/activity_register.xml"
+    },
+    {
         "merged": "C:\\Users\\mateo\\.gradle\\daemon\\8.7\\com.example.kotlin_login.app-debug-31:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\mateo\\.gradle\\daemon\\8.7\\com.example.kotlin_login.app-main-33:\\xml\\backup_rules.xml"
     },
