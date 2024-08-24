@@ -2,8 +2,6 @@ R_DEF: Internal format may change without notice
 local
 color aqua
 color black
-color blue
-color blueviolet
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="aqua">#64DFDF</color>
+    <color name="aqua">#2A787A</color>
     <color name="black">#FF000000</color>
-    <color name="blue">#4EA8DE</color>
-    <color name="blueviolet">#5E60CE</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">kotlin-login</string>
     <string name="hint_enter_preference">Ingrese su preferencia</string>

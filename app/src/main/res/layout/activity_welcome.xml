@@ -9,112 +9,133 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="@color/aqua">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="@string/welcome_title"
             android:textSize="30sp"
-            android:gravity="center"
-            android:layout_gravity="center"/>
+            android:background="@color/white"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start">
-
-            <CheckBox
-                android:id="@+id/logo_ios"
-                android:text="@string/welcome_IOS"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textSize="18sp">
-            </CheckBox>
-            <ImageView
-                android:id="@+id/imageview_ios"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="8dp"
-                android:src="@drawable/logo_ios"
-                android:visibility="gone" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start">
-
-            <CheckBox
-                android:id="@+id/logo_android"
-                android:text="@string/welcome_Android"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textSize="18sp">
-            </CheckBox>
-            <ImageView
-                android:id="@+id/imageview_android"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="8dp"
-                android:src="@drawable/logo_android"
-                android:visibility="gone" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="266dp"
+            android:layout_height="502dp"
+            android:layout_marginTop="22sp"
+            android:background="@color/white"
             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="vertical">
+
+                <!-- Primer par de CheckBox e ImageView -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/logo_android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginEnd="8dp"
+                        android:text="@string/welcome_Android"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_android"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10sp"
+                        android:src="@drawable/logo_android"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <!-- Segundo par de CheckBox e ImageView -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/logo_ios"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="@string/welcome_IOS"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_ios"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/logo_ios"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start">
+
+            </LinearLayout>
 
             <CheckBox
                 android:id="@+id/checkbox_programacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/welcome_Programacion"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp" />
 
             <CheckBox
                 android:id="@+id/checkbox_redes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="@string/welcome_Redes"
-                android:textSize="18sp"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp" />
 
             <CheckBox
                 android:id="@+id/checkbox_seguridad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="@string/welcome_Seguridad"
-                android:textSize="18sp"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp" />
 
             <CheckBox
                 android:id="@+id/checkbox_hardware"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="@string/welcome_Hardware"
-                android:textSize="18sp"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp" />
 
             <CheckBox
                 android:id="@+id/checkbox_otra"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="@string/welcome_Otra"
-                android:textSize="18sp"
-                android:layout_marginBottom="8dp" />
+                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/edittext_other"
-                android:layout_width="190sp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
                 android:hint="@string/hint_enter_preference"
                 android:visibility="gone" />
 
