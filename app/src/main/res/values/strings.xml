@@ -3,7 +3,7 @@
     //Main
     <string name="main_title">Trabajo Práctico 1</string>
     //Welcome
-    <string name="welcome_title">Bienvenido a la aplicación</string>
+    <string name="welcome_title">Bienvenido a la aplicación Juan Torres</string>
     <string name="welcome_Android">Android</string>
     <string name="welcome_IOS">IOS</string>
     <string name="welcome_Programacion">Programacion</string>
